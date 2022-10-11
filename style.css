@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    src: url(/font/JosefinSans-Regular.ttf);
+}
+body{
+    background-color: #faebd7;
+
+}
+.header img{
+    width: 100px;
+    padding: 20px;
+    margin-left: 25px;
+}
+.header li{
+    display: inline;
+    padding: 0px 10px;
+}
+.header ul{
+    float: right;
+    padding: 60px 40px;
+}
+.header{
+    border-bottom: 1px dashed;
+}
+.header a{
+    text-decoration: none;
+}
+.rouge {
+    color: red;
+    text-decoration: underline;
+    border-bottom: 1px solid;
+}
+.box{
+    margin: 10px 50px;
+    background-image:url(images/banniere.svg);
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+}
+.box-text{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.505);
+    width: 98%;
+    top: 10;
+    padding: 15px;
+}
+.box button{
+    float: right;
+    margin-top: -25px;
+    background-color: #740909;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.blog{
+    width: 64%;
+    float: left;
+}
+.blog h2{
+    margin-bottom: 20px;
+}
+.box-logo{
+    background-color: #8B8A82;
+    width: 400px;
+    float: right;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* opacity: 0.5; */
+
+}
+.h2logo{
+    text-align: center;
+}
+.h2logo img{
+    width: 120px;
+    padding: 10px 0px;
+}
+.p1, .p2{
+    margin-bottom: 10px;
+}
+.box-blog-logo{
+    margin: 20px 50px;
+}
+.social-media{
+    text-align: center;
+}
+.rss{
+    margin-right: 20px;
+}
+
+.photos {
+    width: 100px;
+    border: 5px solid #6799E1;
+}
+
+.footer {
+    display: inline-block;
+    margin-right: 100px;
+    margin: 0px 30px 0px 30px;
+}
+
+.liste-amis {
+    color: #852424;
+}
+footer{
+    border-bottom: 1px dashed;
+    clear: both;
+}
+
